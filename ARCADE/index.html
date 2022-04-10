@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIC TAC TOE!</title>
+</head>
+<body>
+    <h1>TIC TAC TOE</h1>
+    <div>
+        <h2 id="getThree">Get three in a row!</h2>
+    </div>
+    <div id="players">
+        <span>Player 1 is X</span>
+        <span>Player 2 is O</span>
+    </div>
+    <div class="board">
+        <div data-index="1" class="tile"></div>
+        <div data-index="2" class="tile"></div>
+        <div data-index="3" class="tile"></div>
+        <div data-index="4" class="tile"></div>
+        <div data-index="5" class="tile"></div>
+        <div data-index="6" class="tile"></div>
+        <div data-index="7" class="tile"></div>
+        <div data-index="8" class="tile"></div>
+        <div data-index="9" class="tile"></div>
+    </div>
+    <div id="gameOverContent" class="hidden">
+        <h2 id="gameOverMessage"></h2>
+    </div>
+    <div>
+        <input type="submit" id="reset" value="New Game">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
